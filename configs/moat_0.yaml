@@ -1,0 +1,13 @@
+MODEL:
+  TYPE: MOAT
+  NAME: moat_0_224
+  DROP_PATH_RATE: 0.2
+  NUM_CLASSES: 45
+  MOAT:
+    EMBED_DIM: 64
+    DEPTHS: (2, 3, 7, 2)
+    DIM_HEAD: 32
+    WINDOW_SIZE: (7, 7)
+    USE_WINDOW: False
+    POOL: "avg"
+    CHANNELS: (96, 192, 384, 768)
