@@ -133,20 +133,20 @@ python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.py \
---cfg configs/moat_0.yaml --data-path <imagenet-path> --batch-size 128
+--cfg configs/moat_1.yaml --data-path <imagenet-path> --batch-size 128
 ```
 
 `moat_2`:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.py \
---cfg configs/moat_0.yaml --data-path <imagenet-path> --batch-size 128
+--cfg configs/moat_2.yaml --data-path <imagenet-path> --batch-size 128
 ```
 
 `moat_3`:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.py \
---cfg configs/moat_0.yaml --data-path <imagenet-path> --batch-size 128 \
+--cfg configs/moat_3.yaml --data-path <imagenet-path> --batch-size 128 \
 --accumulation-steps 2 [--use-checkpoint]
 ```
