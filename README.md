@@ -9,11 +9,11 @@ paper [MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision M
 by ZeChen Wu.
 
 <p align="center">
-  <img src="moat-1.png"  alt="1" width = 674px height = 306px >
+  <img src="moat-1.png"  alt="1" width = 942px height = 513px >
 </p>
 
 <p align="center">
-  <img src="moat-2.png"  alt="1" width = 674px height = 306px >
+  <img src="moat-2.png"  alt="1" width = 936px height = 675px >
 </p>
 
 Figure taken from [paper](https://arxiv.org/pdf/2210.01820.pdf).
